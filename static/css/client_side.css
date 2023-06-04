@@ -45,8 +45,8 @@ body {
 .my-button {
 	display: inline-block;
 	padding: 10px 20px;
-	background-color: #C88EA7;
-	color: #ffffff;
+	background-color: #FFFFFF;
+	color: #C88EA7;
 	text-align: center;
 	text-decoration: none;
 	border-radius: 10px;
@@ -57,9 +57,9 @@ body {
   }
   
 .btn-submit {
-	border: 2px solid #99627A;
+	border: 2px solid #FFFFFF;
 	font-weight: 600;
-	color: #99627A;
+	color: #FFFFFF;
 }
 
 h2 {
@@ -89,23 +89,29 @@ h4 {
 	margin-bottom: 30px;
 }  
 
+.font-mengatasi {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	color: #99627A
+}
+
 .hasilpredict {
 	background: #FFFFFF;
 	border: 1px solid #C88EA7;
-	box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.25);
+	box-shadow: 10px 10px 50px rgba(255, 255, 255, 0.966);
 	border-radius: 10px;
 	text-align: center;
 }
 
 .mengatasi-container{
-	background-color: #C88EA7;
-	color: #FFFFFF;
+	background-color: #FFFFFF;
+	color: #C88EA7;
 }
 
 .img-border-radius {
 	border-radius: 10px;
   }
-  
+
 
 .container-fluid {
 	padding: 0px 80px;
@@ -170,6 +176,29 @@ h4 {
 	background-repeat: no-repeat;
 	background-position: right top;
 	background-size: 300px;
+	background-color: #C88EA7;
+}
+
+#about {
+	background-image: url("../images/bg-bulat2.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 300px;
+}
+
+.jeni-penyakit {
+	background-color: #C88EA7;
+	border-radius: 100px;
+	width: 250px;
+	height: 50px;
+	justify-self: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.penyakit {
+	justify-items: center;
+	justify-content: center;
 }
 
 .team-member {
@@ -236,6 +265,17 @@ footer .glyphicon {
 	100% {
 	  opacity: 1;
 	  -webkit-transform: translateY(0%);
+	}
+}
+
+/* Atur ulang ukuran latar belakang saat layar kecil */
+@media (max-width: 768px) {
+	#aplikasi {
+		background-size: 30%; /* Ubah persentase sesuai kebutuhan */
+	}
+
+	#about {
+		background-image: none;
 	}
 }
 
